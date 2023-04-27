@@ -5,8 +5,6 @@
 *{
     margin:0;
     padding: 0;
-    font-family: "Inter", sans-serif;
-    font-size: 35x;
     box-sizing: border-box;
     /* boa parte da fonte eh com altura 36px entao já configuramos aqui */
 }
@@ -16,6 +14,9 @@
     background-color: #969696 ;
     width: 100vw;
     height: 100vh;
+
+    font-family: "Inter", sans-serif;
+ 
 
     display: flex;
     justify-content: center;
@@ -37,12 +38,14 @@
     color: #ffffff;
   
     width: 100%;
+    height: 60px;
     text-align: right;
 }
 
 .response{
     display: inline-block;  /* pra que serve? */
     width: 100%;
+    height: 60px;
     text-align: right;
 
     margin-top:70px;
@@ -53,7 +56,9 @@
 }
 .refresh{
     margin-bottom:20px;
+    color:#ffffff;
 }
+
 
 .wrapper-buttons{
 
@@ -70,8 +75,10 @@
 
     width: 73px;
     height:75px;
+    font-size: 36px;
 
     border-radius: 9px;
+    font-family: "Inter", sans-serif;
 
     display:flex;
     justify-content: center;
